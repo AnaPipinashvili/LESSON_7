@@ -1,23 +1,31 @@
 /*First container*/
 .first-container{
-	width: 1764px;
+	max-width: 1920px;
+	width: 100%;
 	height: 1187px;
 	margin:  0 auto;
 	background: #FFFFFF 
 }
-.header{
+.header-flex{
+	max-width: 1920px;
+	width: 100%;
 	display: flex;
-	align-items: center;
 	justify-content: space-between;
-
+	/*align-items: center;*/
 }
+
+
+
+	
 .nav1{
 	display: flex;	
 	align-items: center;
+
 }
 
 .nav-li{
 	margin-right: 50px;
+	vertical-align: baseline;
 
 }
 
@@ -26,7 +34,8 @@
 }
 
 .box{
-	width: 882px;
+	max-width: 960px;
+	width: 50%;
 	display: flex;
 	flex-direction: column;
 }
